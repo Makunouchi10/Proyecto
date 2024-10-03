@@ -124,10 +124,11 @@ class JuegoDeBarcos:
         instrucciones = (
             "Instrucciones:\n"
             "1. Adivina la posición de los barcos en los niveles.\n"
-            "2. Nivel 1: Adivina del 1 al 9 (7 intentos).\n"
-            "3. Nivel 2: Adivina del 1 al 16 (12 intentos).\n"
-            "4. Nivel 3: Adivina del 1 al 25 (19 intentos).\n"
-            "5. Por cada acierto, avanzas al siguiente nivel."
+            "2. Adivina la posición de 3 barcos y pasaras al siguiente nivel.\n"
+            "3. Nivel 1: Adivina del 1 al 9 (7 intentos).\n"
+            "4. Nivel 2: Adivina del 1 al 16 (12 intentos).\n"
+            "5. Nivel 3: Adivina del 1 al 25 (19 intentos).\n"
+            "6. Por cada acierto, avanzas al siguiente nivel."
         )
         tk.Label(self.ventana, text=instrucciones).pack(pady=10)
         tk.Button(self.ventana, text="Regresar", command=self.menu_principal).pack(pady=5)
